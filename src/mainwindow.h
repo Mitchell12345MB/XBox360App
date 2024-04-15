@@ -4,9 +4,7 @@
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
-namespace Ui {
-class MainWindow;
-}
+namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow {
@@ -17,7 +15,8 @@ public:
     ~MainWindow();
 
 private slots:
-    void onSaveSettingsButtonClicked();
+    void onSaveSettingsButtonClicked();  // Existing slot
+    void handleConnectButtonClicked();   // Updated slot name
 
 private:
     Ui::MainWindow *ui;
