@@ -42,8 +42,10 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Mitchell/Documents/XBox360App/*.cpp")
 set(OLD_GLOB
   "C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "C:/Users/Mitchell/Documents/XBox360App/main.cpp"
-  "C:/Users/Mitchell/Documents/XBox360App/mainwindow.cpp"
+  "C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/XBox360App_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/XBox360App_autogen/mocs_compilation.cpp"
+  "C:/Users/Mitchell/Documents/XBox360App/src/main.cpp"
+  "C:/Users/Mitchell/Documents/XBox360App/src/mainwindow.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -62,7 +64,9 @@ endif()
 # _directory_contents at C:/Qt/6.5.3/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Mitchell/Documents/XBox360App/*.h")
 set(OLD_GLOB
-  "C:/Users/Mitchell/Documents/XBox360App/mainwindow.h"
+  "C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/XBox360App_autogen/include/ui_mainwindow.h"
+  "C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/XBox360App_autogen/moc_predefs.h"
+  "C:/Users/Mitchell/Documents/XBox360App/src/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -162,7 +166,7 @@ endif()
 # _directory_contents at C:/Qt/6.5.3/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Mitchell/Documents/XBox360App/*.ui")
 set(OLD_GLOB
-  "C:/Users/Mitchell/Documents/XBox360App/mainwindow.ui"
+  "C:/Users/Mitchell/Documents/XBox360App/src/mainwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
