@@ -1,0 +1,8 @@
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/XBox360App.dir
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/install.dir
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/install/local.dir
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/XBox360App_autogen_timestamp_deps.dir
+C:/Users/Mitchell/Documents/XBox360App/build/Desktop_Qt_6_8_0_MSVC2019_64bit-Debug/CMakeFiles/XBox360App_autogen.dir
