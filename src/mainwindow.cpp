@@ -17,6 +17,9 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Connect save settings button signal
     connect(ui->saveSettingsButton, &QPushButton::clicked, this, &MainWindow::onSaveSettingsButtonClicked);
+
+    // Connect connect button signal using the new slot name
+    connect(ui->connectButton, &QPushButton::clicked, this, &MainWindow::handleConnectButtonClicked);
 }
 
 MainWindow::~MainWindow()
@@ -32,5 +35,12 @@ void MainWindow::onSaveSettingsButtonClicked()
     settings.setValue("Xbox/Username", ui->usernameLineEdit->text());
     settings.setValue("Xbox/Password", ui->passwordLineEdit->text());
 
-    QMessageBox::information(this, "Settings Saved", "Settings have been saved.");
+    QMessageBox::information(this, "Settings Saved", "Your settings have been saved successfully.");
+}
+
+void MainWindow::handleConnectButtonClicked()
+{
+    // Example: Display a message box or handle a network connection
+    QMessageBox::information(this, "Connection Attempt", "Attempting to connect...");
+    // Add your actual connection logic here
 }
